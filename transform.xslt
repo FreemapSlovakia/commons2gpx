@@ -22,7 +22,7 @@
       </xsl:attribute>
       <link>
         <xsl:attribute name="href">
-          <xsl:value-of select="imageinfo/ii/@url" />
+          <xsl:value-of select="concat(imageinfo/ii/@url, '#.jpg')" />
         </xsl:attribute>
         <type>image/jpeg</type>
       </link>
